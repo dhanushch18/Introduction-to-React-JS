@@ -1,0 +1,19 @@
+/*
+Props
+Another way of handling component properties is by using props.
+
+Props are like function arguments, and you send them into the component as attributes.
+*/
+/*
+
+
+class Cars extends React.Component {
+  render() {
+    return <h2>I am a {this.props.color} Lumborgini Car.</h2>
+  }
+}
+
+const container = document.getElementById('root');
+const root = ReactDOM.createRoot(container);
+root.render(<Cars color="red"/>)
+/*
